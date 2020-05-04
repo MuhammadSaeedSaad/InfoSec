@@ -10,6 +10,16 @@ useful links:
 https://stackoverflow.com/questions/19120676/how-to-detect-type-of-compression-used-on-the-file-if-no-file-extension-is-spe
 - python script that takes the compressed file and its input and then decompresses it depending on its type.
 https://github.com/AbdullahALRashdan/Cybertalents-f100/blob/master/solve.py
+- shell script that does the same as the above python script
+https://github.com/Aboalfadl/CTF-Writeups/blob/master/nullcon-hackim-2016/forensics/CatchMeIfYouCan-f100/Attack.sh
+- on compression and decompression utilities in linux.
+https://www.unixmen.com/top-15-file-compression-utilities-linux/
+- similar CTF in DEFCON (41 times compression)
+https://nopsr.us/ctf2008qual/walk-forensics.html
+- here we can find a way to compress with ppmd in 7z
+https://sevenzip.osdn.jp/chm/cmdline/switches/method.htm
+- how to install a .deb file in linux (used it to install ppmd as i downloaded it from ubuntu mirror)
+https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt
 
 2- after using "file" we find out that the compression is from type ARCH which we can decompress using "nomarch" package in linux.
 try to install it using the "apt install nomarch" but didn't work for the first time as my cache was not up-to-date 
